@@ -1,1 +1,62 @@
 /* Inserta tu CSS aqui */
+* {
+	font-family: sans-serif;
+}
+.text-center {
+	text-align: center;
+}
+.marg-30{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.weight{
+	font-weight: bold;
+}
+.nav-header ul {
+	list-style-type: none;
+}
+.nav-header ul li {
+		display: inline;
+	}
+.nav-header ul li a{
+	text-decoration: none;
+	font-size: 14px;	
+}
+.nav-header ul li a{
+	padding: 10px 20px;
+	color: black;
+}
+.nav-header ul li a:hover {
+	background: gray;
+}
+.hero {
+	background-image: url('../images/background.jpg');
+	height: 450px;	
+}
+.text-50{
+	font-size: 50px;
+}
+.text-22 {
+	font-size: 22px;
+}
+.main-1{
+	background: url('../images/tile1.png');
+	padding: 60px 0 30px;
+}
+.biography-image {
+	margin-top:50px; 
+}
+.biography-image img{
+	border: 1px solid black;
+	padding: 2px;
+	width: 100%;
+}
+.f-violet-30 {
+	color: #A8258D;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.biography-text p:nth-child(2){
+	font-size: 13px;
+	margin-right: none;
+}
