@@ -1,15 +1,24 @@
 /* Inserta tu CSS aqui */
 * {
-	font-family: sans-serif;
+font-family: 'Oswald';
 }
-.text-center {
+.t-center {
 	text-align: center;
 }
-.marg-30{
-	margin-top: 30px;
-	margin-bottom: 20px;
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	background: white;
+	border-bottom: 1px solid black;
 }
-.weight{
+.logo img{
+	margin-top: 140px;
+}
+.marg-25{
+	margin: 25px 0;
+}
+.bold{
 	font-weight: bold;
 }
 .nav-header ul {
@@ -31,32 +40,84 @@
 }
 .hero {
 	background-image: url('../images/background.jpg');
-	height: 450px;	
+	height: 505px;
+	background-size: 150% 175%;
+	color: white;	
 }
-.text-50{
-	font-size: 50px;
+.logo p:nth-child(3){
+	font-family: sans-serif;
 }
-.text-22 {
-	font-size: 22px;
+.t-50{
+	font-size: 45px;
+}
+.t-20 {
+	font-size: 20px;
 }
 .main-1{
 	background: url('../images/tile1.png');
 	padding: 60px 0 30px;
 }
-.biography-image {
-	margin-top:50px; 
-}
 .biography-image img{
 	border: 1px solid black;
-	padding: 2px;
+	padding: 5px;
 	width: 100%;
+	height: 210px;
 }
 .f-violet-30 {
 	color: #A8258D;
 	font-size: 30px;
 	margin-bottom: 20px;
 }
-.biography-text p:nth-child(2){
-	font-size: 13px;
+.biography-text p:first-child{
+	font-size: 14px;
 	margin-right: none;
+}
+.main-2 {
+	position: relative;
+	padding-bottom: 200px;
+	height: 800px;
+	overflow-y: auto;
+	height: 400px;
+}
+::-webkit-scrollbar {
+      width: 10px;
+}
+::-webkit-scrollbar-track {
+      background-color: #7F7F7F;
+} 
+.favorites p:nth-child(2){
+	font-size: 16px;
+	color: #A8258D;
+}
+hr{
+	height: 250px;
+	width: 8px;
+	border-radius: 4px;
+	background: #7F7F7F;
+}
+.main-2 hr{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+.foto-kitten .col-3 img{
+	width: 100%;
+	border-radius: 50%;
+	padding: 3px;
+	border: 1px solid #A8258D;
+}
+footer {
+	background-image: url('../images/tile2.png');
+	padding: 25px 0;
+}
+.piedepag .col-3 img{
+	width: 100%;
+}
+footer{
+	position: relative;
+}
+footer hr{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
 }
